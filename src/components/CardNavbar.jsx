@@ -5,45 +5,43 @@ export const CardNavbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300 py-5 bg-background/80 backdrop-blur-md shadow-xs"
+        "fixed w-full z-40 bg-white shadow-sm py-3 transition-all duration-300"
       )}
     >
-      <div className="container flex items-center justify-between">
-        {/* App Name on the left */}
+      <div className="container mx-auto flex items-center justify-between">
+        {/* App Name / Logo */}
         <a
-          className="text-2xl font-bold text-primary flex items-center"
+          className="flex items-center space-x-2 text-gray-800 font-semibold text-xl"
           href="#hero"
         >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground">Healthcare</span> Portal
-          </span>
+          <img
+            src="/assets/odisha.png"
+            alt="Odisha Logo"
+            width={40}
+            height={40}
+          />
+          <span>Healthcare Portal</span>
         </a>
 
-        {/* Navbar links on the right */}
-        <div className="flex items-center space-x-6">
+        {/* Navbar links */}
+        <div className="flex items-center space-x-6 text-gray-700 font-medium">
           <Link
             to="/"
-            className="text-md text-foreground/80 hover:text-primary transition-colors duration-300"
+            className="hover:text-blue-700"
           >
             Home
           </Link>
           <Link
             to="/services"
-            className="text-md text-foreground/80 hover:text-primary transition-colors duration-300"
+            className="hover:text-blue-700"
           >
             Services
           </Link>
           <Link
             to="/about"
-            className="text-md text-foreground/80 hover:text-primary transition-colors duration-300"
+            className="hover:text-blue-700"
           >
             About
-          </Link>
-          <Link
-            to="/contact"
-            className="text-md text-foreground/80 hover:text-primary transition-colors duration-300"
-          >
-            Contact
           </Link>
         </div>
       </div>

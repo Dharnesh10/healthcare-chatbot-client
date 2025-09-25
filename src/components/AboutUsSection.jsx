@@ -39,7 +39,7 @@ export const AboutSection = () => {
       <div className="container mx-auto max-w-6xl text-center">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-          About <span className="text-primary"> Us</span>
+          About <span className="text-blue-700">Us</span>
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto mb-12">
           We are a government initiative dedicated to bringing healthcare

@@ -6,6 +6,8 @@ import { CardSection } from "../components/CardSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
 import { AboutUsSection } from "../components/AboutUsSection";
+import ImageSection from "../components/ImageSection";
+import PhotoGallery from "../components/PhotoGallery";
 
 export const Home = () => {
   return (
@@ -18,10 +20,12 @@ export const Home = () => {
       <Navbar />
       {/* Main Content */}
       <main>
+        {/* <ImageSection /> */}
         <HeroSection />
         <CardSection />
         <AboutUsSection />
-        <ContactSection />
+        <PhotoGallery />
+        {/* <ContactSection /> */}
       </main>
       {/* Footer */}
       <Footer />
