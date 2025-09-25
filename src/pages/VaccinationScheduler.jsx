@@ -3,13 +3,15 @@ import { CardNavbar } from "../components/CardNavbar";
 import { Footer } from "../components/Footer";
 
 const sampleVaccinationData = [
-  { patientName: "Pranav Balaji P MA", vaccinationDate: "2025-09-16", vaccinationName: "COVID-19 Booster", hospitalName: "Apollo Hospital, Chennai" },
-  { patientName: "Priya", vaccinationDate: "2025-09-16", vaccinationName: "Hepatitis B", hospitalName: "Fortis Healthcare, Delhi" },
-  { patientName: "Dharnesh", vaccinationDate: "2025-09-16", vaccinationName: "Polio", hospitalName: "AIIMS Hospital, Delhi" },
-  { patientName: "Jai Mithran", vaccinationDate: "2025-09-16", vaccinationName: "Typhoid", hospitalName: "KIMS Hospital, Kochi" },
-  { patientName: "Krishna", vaccinationDate: "2025-09-16", vaccinationName: "Tetanus", hospitalName: "Manipal Hospital, Bangalore" },
-  { patientName: "Surya Kumar", vaccinationDate: "2025-09-16", vaccinationName: "Chickenpox", hospitalName: "Fortis Healthcare, Hyderabad" },
-  { patientName: "Kavya", vaccinationDate: "2025-09-16", vaccinationName: "HPV", hospitalName: "Medanta Hospital, Gurgaon" },
+
+  { "patientName": "Ananya Sharma", "vaccinationDate": "2025-09-16", "vaccinationName": "COVID-19 Booster", "hospitalName": "Narayana Health, Bangalore" },
+  { "patientName": "Rohan Verma", "vaccinationDate": "2025-09-16", "vaccinationName": "Hepatitis B", "hospitalName": "Apollo Hospital, Delhi" },
+  { "patientName": "Meera Iyer", "vaccinationDate": "2025-09-16", "vaccinationName": "Polio", "hospitalName": "KIMS Hospital, Hyderabad" },
+  { "patientName": "Aditya Rao", "vaccinationDate": "2025-09-16", "vaccinationName": "Typhoid", "hospitalName": "Fortis Healthcare, Mumbai" },
+  { "patientName": "Sneha Nair", "vaccinationDate": "2025-09-16", "vaccinationName": "Tetanus", "hospitalName": "Manipal Hospital, Kochi" },
+  { "patientName": "Vikram Singh", "vaccinationDate": "2025-09-16", "vaccinationName": "Chickenpox", "hospitalName": "Max Hospital, Delhi" },
+  { "patientName": "Ishita Gupta", "vaccinationDate": "2025-09-16", "vaccinationName": "HPV", "hospitalName": "Medanta Hospital, Gurgaon" }
+
 ];
 
 const VaccinationScheduler = () => {

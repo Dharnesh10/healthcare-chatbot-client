@@ -11,16 +11,19 @@ export const CardNavbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* App Name / Logo */}
         <a
-          className="flex items-center space-x-2 text-gray-800 font-semibold text-xl"
           href="#hero"
+          className="flex items-center space-x-2 text-gray-800 font-semibold"
         >
           <img
             src="/assets/odisha.png"
             alt="Odisha Logo"
-            width={40}
-            height={40}
+            width={50}
+            height={50}
           />
-          <span>Healthcare Portal</span>
+          <div className="flex flex-col leading-tight">
+            <span className="text-sm text-gray-600 bold">Department of Family & HealthCare</span>
+            <span>Government of Odisha</span>
+          </div>
         </a>
 
         {/* Navbar links */}
@@ -30,18 +33,6 @@ export const CardNavbar = () => {
             className="hover:text-blue-700"
           >
             Home
-          </Link>
-          <Link
-            to="/services"
-            className="hover:text-blue-700"
-          >
-            Services
-          </Link>
-          <Link
-            to="/about"
-            className="hover:text-blue-700"
-          >
-            About
           </Link>
         </div>
       </div>
